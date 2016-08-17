@@ -1,22 +1,56 @@
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
 <html>
 <style>
-  .smiley {
-    background-color: light-purple;
-  }
+  
 </style>
 <head>
     <meta charset="UTF-8">
+    <meta anme="viewport" content="width=device-wdith, initial-scale=1"
     <title>SMILEY!!</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
 </head>
 <body>
-    <div class="container">
+  <h1>Smiley Challenge</h1>
+    <div class="container-fluid">
   <div class="row">
-    <div class="col-xs-6 smiley">SMILEY</div>
-    <div class="col-xs-6 smiley">SMILEY</div>
+    <div class="col-xs-6">SMILEY</div>
+    <div class="col-xs-6">SMILEY</div>
   </div>
 </div>
-
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">SMILEY</div>
+      <div class="col-md-6">SMILEY</div>
+      </div>
 </body>
 </html>
 
+
+
+<!--
+  .col-md-push-*
+  .col-md-pull-*
+  -->
+
+
+
+
+<!--4th grid-->
+<div class="container">
+  <div class="row">
+    <div class="col-sm-3">
+      <!-- No nesting here -->
+    </div>
+    <div class="col-sm-9">
+      <!-- Here we nest two rows -->
+      <div class="row">
+        <!-- A first one with two cols -->
+        <div class="col-sm-6"></div>
+        <div class="col-sm-6"></div>
+      </div>
+      <div class="row">
+        <!-- A second one with just one col -->
+        <div class="col-sm-12"></div>
+      </div>
+    </div>
+  </div>
+</div>
